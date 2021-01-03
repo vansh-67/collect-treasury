@@ -56,7 +56,7 @@ function draw(){
 for(var i = 0 ; i < fruit_group.length ; i++){
   if(sword.isTouching(fruit_group[i])){
   fruit_group[i].destroy();
-  score = score+2;
+  score = score+1;
  }
 }
   
